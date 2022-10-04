@@ -188,7 +188,7 @@ nav li a:hover {
 }
 
 .hotelStars {
-    word-spacing: -1ch;
+    font-size: xx-small;
 }
 
 .fa-star {
@@ -235,6 +235,7 @@ nav li a:hover {
 
 .popularHotels {
     flex-direction: column;
+    margin-top: 15px;
 }
 
 .popularImg {
