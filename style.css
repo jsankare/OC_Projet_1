@@ -163,7 +163,6 @@ nav li a:hover {
 
 .hotel__card {
     display: flex;
-    height: 199px;
     width: 246px;
     box-sizing: border-box;
     border: 5px solid white;
@@ -179,10 +178,10 @@ nav li a:hover {
 }
 
 .card__infos {
-    flex-direction: column;
-    justify-content: space-around;
+    display: flex;
     background-color: white;
     padding: 5px 10px;
+    gap: 4px;
 }
 
 .card__infos p {
@@ -190,18 +189,15 @@ nav li a:hover {
 }
 
 .hotel__stars {
-    font-size: xx-small;
+    font-size: 12px;
+    gap: 2px;
 }
 
-.fa-star {
-    letter-spacing: 2px;
-}
-
-.blueStar {
+.star--active {
     color: #0065FC;
 }
 
-.greyStar {
+.star {
     color: #F2F2F2;
 }
 
