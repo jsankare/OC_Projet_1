@@ -283,3 +283,22 @@ nav li a:hover {
     height: 389px;
     width: 302px;
 }
+
+/* footer */
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 60px;
+}
+
+.about , .accomodations , .help{
+    flex: 1;
+}
+
+footer h3 {
+    margin-left: 37px;
+}
+
+footer li {
+    margin-bottom: 12px;
+}
