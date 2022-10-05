@@ -58,7 +58,7 @@ nav li a:hover {
 
 /* Search */
 
-.searchIconBox {
+.search__iconBox {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0 0 15px;
@@ -70,7 +70,7 @@ nav li a:hover {
     font-size: 25px;
 }
 
-.searchInput {
+.search__input {
     border: 1px solid #f2f2f2;
     padding: 0 0 0 15px;
     font-size: 1.1rem;
@@ -78,7 +78,7 @@ nav li a:hover {
     width: 230px;
 }
 
-.searchButton {
+.search__button {
     background-color: #0065FC;
     width: 132px;
     height: 49px;
@@ -91,7 +91,7 @@ nav li a:hover {
 
 /* Filters */
 
-.textFilter {
+.text__filter {
     align-self: center;
 }
 
@@ -116,7 +116,7 @@ nav li a:hover {
     background-color: #DEEBFF;
 }
 
-.filterBox {
+.filter__box {
     align-self: center;
     margin-right: 30px;
 }
@@ -125,7 +125,7 @@ nav li a:hover {
     color: #0065FC;
 }
 
-.infoIcon i {
+.info__icon i {
     color: #0065FC;
     padding: 7px 10px;
     font-size: 10px;
@@ -137,7 +137,7 @@ nav li a:hover {
     padding-left: 10px;
 }
 
-.infoBox {
+.info__iox {
     height: 24px;
     margin-top: 50px;
 }
@@ -151,14 +151,14 @@ nav li a:hover {
     flex: 2;
 }
 
-.hotelCards {
+.hotel__cards {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 30px;
     margin: 30px 0 50px;
 }
 
-.hotelCard {
+.hotel__card {
     display: grid;
     height: 199px;
     width: 246px;
@@ -170,24 +170,24 @@ nav li a:hover {
     box-shadow: 0 0 7px #C1C1C1;
 }
 
-.hotelImg {
+.hotel__img {
     width: 100%;
     height: 126px;
     object-fit: cover;
 }
 
-.cardInfos {
+.card__infos {
     flex-direction: column;
     justify-content: space-around;
     background-color: white;
     padding: 5px 10px;
 }
 
-.cardInfos p {
+.card__infos p {
     margin: 0;
 }
 
-.hotelStars {
+.hotel__stars {
     font-size: xx-small;
 }
 
@@ -203,7 +203,7 @@ nav li a:hover {
     color: #F2F2F2;
 }
 
-.showMore {
+.show__more {
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -218,12 +218,12 @@ nav li a:hover {
     margin-left: 3%;
 }
 
-.popularIcon {
+.popular__icon {
     color: #0065FC;
     font-size: 1.5rem;
 }
 
-.popularArticle {
+.popular__article {
     height: 144px;
     width: 343px;
     border-radius: 15px;
@@ -233,18 +233,18 @@ nav li a:hover {
     overflow: hidden;
 }
 
-.popularHotels {
+.popular__hotels {
     flex-direction: column;
     margin-top: 15px;
 }
 
-.popularImg {
+.popular__img {
     width: 137px;
     height: 144px;
     object-fit: cover;
 }
 
-.cardInfos {
+.card__infos {
     flex: 1;
     background-color: white;
     flex-direction: column;
@@ -252,7 +252,7 @@ nav li a:hover {
     padding: 10px;
 }
 
-.cardInfos > h3 {
+.card__infos > h3 {
     margin: 0;
     font-weight: 700;
     font-size: 1rem;
