@@ -284,6 +284,10 @@ nav li a:hover {
     width: 302px;
 }
 
+.activity__card h3 {
+    margin-left: 15px;
+}
+
 /* footer */
 
 footer {
