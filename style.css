@@ -7,6 +7,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
 h2 {
     font-weight: 700;
     font-size: 22px;
@@ -50,10 +55,6 @@ nav li a:hover {
 
 .logo > img {
     width: 61px;
-}
-
-.fas {
-    margin: auto;
 }
 
 /* Search */
@@ -149,20 +150,21 @@ nav li a:hover {
     border-radius: 20px;
     padding: 40px;
     flex: 2;
+    width: 880px;
+    height: 626px;
 }
 
 .hotel__cards {
-    display: grid;
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin: 30px 0 50px;
 }
 
 .hotel__card {
-    display: grid;
+    display: flex;
     height: 199px;
     width: 246px;
-    grid-template-rows: 1fr 40%;
     box-sizing: border-box;
     border: 5px solid white;
     border-radius: 15px;

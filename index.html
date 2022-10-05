@@ -10,233 +10,234 @@
     <title>Booki</title>
 </head>
 <body>
+    <div class="container">
+        <!-- Main -->
+        <header class="flex">
+                <a class ="logo" href="#"><img src="ressources/booki" alt="Booki"></a>
+            <nav class="flex">
+                <ul class="flex">
+                    <li><a href="">Hebergements</a></li>
+                    <li><a href="">Activités</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Main -->
-    <header class="flex">
-            <a class ="logo" href="#"><img src="ressources/booki" alt="Booki"></a>
-        <nav class="flex">
-            <ul class="flex">
-                <li><a href="">Hebergements</a></li>
-                <li><a href="">Activités</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!--Search-->
+        <div class="search">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form class="flex search__bar" action="#" method="get">
+                <div class="flex search__iconBox">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>    
+                <input class="search__input" type="search" value="" placeholder="Marseille, France">
+                <button class="search__button" >Rechercher</button>
+            </form>
 
-    <!--Search-->
-    <div class="search">
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <p>En plein centre ville ou en pleine nature</p>
-        <form class="flex search__bar" action="#" method="get">
-            <div class="flex search__iconBox">
-                <i class="fas fa-map-marker-alt"></i>
-            </div>    
-            <input class="search__input" type="search" value="" placeholder="Marseille, France">
-            <button class="search__button" >Rechercher</button>
-        </form>
+            <!--Filters-->
+            <div class="flex filters">
+                <div class="filter__box">
+                    <span class="text__filter">Filtres</span>
+                </div>
+                <div class="filter">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <a href=""><span>Économique</span></a>
+                </div>
 
-        <!--Filters-->
-        <div class="flex filters">
-            <div class="filter__box">
-                <span class="text__filter">Filtres</span>
+                <div class="flex filter">
+                        <i class="fas fa-male"></i>
+                    <a href=""><span>Familial</span></a>
+                </div>
+
+                <div class="flex filter">
+                        <i class="fas fa-heart"></i>
+                    <a href=""><span>Romantique</span></a>
+                </div>
+
+                <div class="flex filter">
+                        <i class="fas fa-dog"></i>
+                    <a href=""><span>Animaux</span></a>
+                </div>
+
             </div>
-            <div class="filter">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <a href=""><span>Économique</span></a>
+            <div class="infoBox">
+                <div class="info__icon">
+                    <i class="fas fa-info"></i>
+                    <span>Plus de 500 logements sont disponibles dans cette ville</span>
+                </div>
             </div>
-
-            <div class="flex filter">
-                    <i class="fas fa-male"></i>
-                <a href=""><span>Familial</span></a>
-            </div>
-
-            <div class="flex filter">
-                    <i class="fas fa-heart"></i>
-                <a href=""><span>Romantique</span></a>
-            </div>
-
-            <div class="flex filter">
-                    <i class="fas fa-dog"></i>
-                <a href=""><span>Animaux</span></a>
-            </div>
-
         </div>
-        <div class="infoBox">
-            <div class="info__icon">
-                <i class="fas fa-info"></i>
-                <span>Plus de 500 logements sont disponibles dans cette ville</span>
+        <div class="housing flex">
+            <div class="hotels">
+                <div class="hotel__title">
+                    <h2>Hébergements à Marseille</h2>
+                </div>
+                <div class="flex hotel__cards">
+
+                    <a class="hotel__card" href="#">
+                        <article class="hotel__article">
+                            <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex hotel__stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a class="hotel__card" href="#">
+                        <article class="hotel__article">
+                            <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex hotel__stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a class="hotel__card" href="#">
+                        <article class="hotel__article">
+                            <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex hotel__stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a class="hotel__card" href="#">
+                        <article class="hotel__article">
+                            <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex hotel__stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a class="hotel__card" href="#">
+                        <article class="hotel__article">
+                            <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex hotel__stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a class="hotel__card" href="#">
+                        <article class="hotel__article">
+                            <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex hotel__stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                </div>
+                <a class="show__more" href="#">Afficher plus</a>
             </div>
-        </div>
-    </div>
-    <div class="housing flex">
-        <div class="hotels">
-            <div class="hotel__title">
-                <h2>Hébergements à Marseille</h2>
-            </div>
-            <div class="flex hotel__cards">
+            <div class="popular">
+                <div class="flex title">
+                    <h2>Les plus populaires</h2>
+                    <i class="fas fa-chart-line popular__icon"></i>
+                </div>
+                <div class="flex popular__hotels">
 
-                <a class="hotel__card" href="#">
-                    <article class="hotel__article">
-                        <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex hotel__stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
+                    <a class="popular__card" href="#">
+                        <article class="flex popular__article">
+                            <img class="popular__img" src="ressources/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                </a>
+                        </article>
+                    </a>
 
-                <a class="hotel__card" href="#">
-                    <article class="hotel__article">
-                        <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex hotel__stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
+                    <a class="popular__card" href="#">
+                        <article class="flex popular__article">
+                            <img class="popular__img" src="ressources/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                </a>
+                        </article>
+                    </a>
 
-                <a class="hotel__card" href="#">
-                    <article class="hotel__article">
-                        <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex hotel__stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
+                    <a class="popular__card" href="#">
+                        <article class="flex popular__article">
+                            <img class="popular__img" src="ressources/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+                            <div class="card__infos">
+                                <h3>Auberge du bonboul</h3>
+                                <p>nuit à partir de 25€</p>
+                                <div class="flex stars">
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="blueStar fas fa-star"></i>
+                                    <i class="greyStar far fa-star"></i>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                </a>
-
-                <a class="hotel__card" href="#">
-                    <article class="hotel__article">
-                        <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex hotel__stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
-                <a class="hotel__card" href="#">
-                    <article class="hotel__article">
-                        <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex hotel__stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
-                <a class="hotel__card" href="#">
-                    <article class="hotel__article">
-                        <img class="hotel__img" src="ressources/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex hotel__stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
-            </div>
-            <a class="show__more" href="#">Afficher plus</a>
-        </div>
-        <div class="popular">
-            <div class="flex title">
-                <h2>Les plus populaires</h2>
-                <i class="fas fa-chart-line popular__icon"></i>
-            </div>
-            <div class="flex popular__hotels">
-
-                <a class="popular__card" href="#">
-                    <article class="flex popular__article">
-                        <img class="popular__img" src="ressources/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
-                <a class="popular__card" href="#">
-                    <article class="flex popular__article">
-                        <img class="popular__img" src="ressources/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
-                <a class="popular__card" href="#">
-                    <article class="flex popular__article">
-                        <img class="popular__img" src="ressources/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
-                        <div class="card__infos">
-                            <h3>Auberge du bonboul</h3>
-                            <p>nuit à partir de 25€</p>
-                            <div class="flex stars">
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="blueStar fas fa-star"></i>
-                                <i class="greyStar far fa-star"></i>
-                            </div>
-                        </div>
-                    </article>
-                </a>
-
+                        </article>
+                    </a>
+                    
+                </div>
             </div>
         </div>
     </div>
