@@ -3,7 +3,8 @@
 /* Font & Global */
 
 body {
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -35,6 +36,7 @@ a {
 
 header {
     justify-content: space-between;
+    align-items: center;
 }
 
 nav li {
@@ -65,6 +67,8 @@ nav li a:hover {
     border-radius: 15px 0 0 15px;
     width: 50px;
     height: 49px;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa-map-marker-alt {
@@ -194,12 +198,13 @@ nav li a:hover {
     gap: 2px;
 }
 
-.star--active {
-    color: #0065FC;
-}
 
 .star {
     color: #F2F2F2;
+}
+
+.star--active {
+    color: #0065FC;
 }
 
 .show__more {
@@ -215,6 +220,12 @@ nav li a:hover {
     padding: 40px;
     flex: 1;
     margin-left: 3%;
+}
+
+.popular__title {
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .popular__icon {
@@ -259,7 +270,7 @@ nav li a:hover {
 
 /* Activities */
 
-.activities {
+#activities {
     margin: 0 auto;
 }
 
@@ -279,12 +290,13 @@ nav li a:hover {
     box-shadow: 0 0 7px #C1C1C1;
 }
 
-.activity__card img {
+.activity__image {
     height: 389px;
-    width: 302px;
+    background-position: center;
+    background-size: cover;
 }
 
-.activity__card h3 {
+.activity__title {
     margin-left: 15px;
 }
 

@@ -13,17 +13,17 @@
     <div class="container">
         <!-- Main -->
         <header class="flex">
-                <a class ="logo" href="#"><img src="ressources/booki" alt="Booki"></a>
+            <a class ="logo" href="#"><img src="ressources/booki" alt="Booki"></a>
             <nav class="flex">
                 <ul class="flex">
-                    <li><a href="">Hebergements</a></li>
-                    <li><a href="">Activités</a></li>
+                    <li><a href="#housing">Hebergements</a></li>
+                    <li><a href="#activities">Activités</a></li>
                 </ul>
             </nav>
         </header>
 
         <!--Search-->
-        <div class="search">
+        <section class="search">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
             <form class="flex search__bar" action="#" method="get">
@@ -66,10 +66,10 @@
                     <span>Plus de 500 logements sont disponibles dans cette ville</span>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!--housing-->
-        <div class="housing flex">
+        <main id="housing" class="flex">
             <div class="hotels">
                 <div class="hotel__title">
                     <h2>Hébergements à Marseille</h2>
@@ -184,7 +184,7 @@
 
             <!--popular-->
             <div class="popular">
-                <div class="flex title">
+                <div class="flex popular__title">
                     <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line popular__icon"></i>
                 </div>
@@ -243,50 +243,40 @@
 
                 </div>
             </div>
-        </div>
+        </main>
 
         <!--activities-->
-        <div class="activities">
+        <section id="activities">
             <h2 class="activities__title">Activités à Marseille</h2>
 
             <div class="flex activities__cards">
             
-                <a href="#">
-                    <div class="activity__card">
-                        <article class="flex activity__article">
-                            <img src="ressources/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="activity__img">
-                        </article>
-                        <h3>Notre-dame-de-la-garde</h3>
+                <a class="activity__card" href="#">
+                    <div class="activity__image" style="background-image: url(ressources/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg)">;
                     </div>
+                    <h3 class="activity__title">Notre-Dame-de-la-Garde</h3>
                 </a>
 
-                <a href="#">
-                    <div class="activity__card">
-                        <article class="flex activity__article">
-                            <img src="ressources/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" class="activity__img">
-                        </article>
-                        <h3>Parc national des calanques</h3>
+                <a class="activity__card" href="#">
+                    <div class="activity__image" style="background-image: url(ressources/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);">
                     </div>
+                    <h3 class="activity__title">Parc national des Calanques</h3>
                 </a>
 
-                <a href="#">
-                    <div class="activity__card">
-                        <img src="ressources/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="" class="activity__img">
-                        <h3>Fort de Pomègues</h3>
+                <a class="activity__card" href="#">
+                    <div class="activity__image" style="background-image: url(ressources/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);">
                     </div>
+                    <h3 class="activity__title">Fort de Pomègues</h3>
                 </a>
 
-                <a href="#">
-                    <div class="activity__card">
-                        <article class="flex activity__article">
-                            <img src="ressources/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="" class="activity__img">
-                        </article>
-                        <h3>Vieux-Port</h3>
+                <a class="activity__card" href="#">
+                    <div class="activity__image" style="background-image: url(ressources/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);">
                     </div>
+                    <h3 class="activity__title">Vieux-Port</h3>
                 </a>
-            
+
             </div>
-        </div>
+        </section>
 
         <!--footer-->
         <footer class="flex">
