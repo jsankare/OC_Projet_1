@@ -2,6 +2,10 @@
 
 /* Font & Global */
 
+* {
+    font-family: raleway;
+}
+
 body {
     margin: 0;
     padding: 0;
