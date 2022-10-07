@@ -110,6 +110,7 @@ nav li a:hover {
     flex-wrap: wrap;
     margin-bottom: 14px;
     margin-top: 18px;
+    align-items: center;
 }
 
 .filter {
@@ -125,9 +126,12 @@ nav li a:hover {
     background-color: #DEEBFF;
 }
 
-.filter__box {
-    align-self: center;
-    margin-right: 30px;
+.filter__title {
+    margin-right: 40px;
+}
+
+.filter__title:hover {
+    background-color: white;
 }
 
 .filters i {
@@ -228,7 +232,6 @@ nav li a:hover {
 .popular__title {
     justify-content: space-between;
     align-items: center;
-
 }
 
 .popular__icon {
