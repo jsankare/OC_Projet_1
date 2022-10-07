@@ -138,7 +138,7 @@ nav li a:hover {
     color: #0065FC;
 }
 
-.info__icon i {
+.info__box i {
     color: #0065FC;
     padding: 7px 10px;
     font-size: 10px;
@@ -323,4 +323,83 @@ footer h3 {
 
 footer li {
     margin-bottom: 12px;
+}
+
+/* Media */ 
+
+/* Tablet */
+
+@media only screen and (max-width: 992px){
+    
+    .container {
+        width: 992px;
+    }
+
+    header {
+        margin-left: 10px;
+    }
+
+    .search {
+        margin-left: 10px;
+    }
+
+    main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* housing */ 
+
+    .hotels {
+        margin-left: 15px;
+    }
+
+    .hotel__title {
+        margin-left: 55px;
+    }
+
+    .hotel__cards {
+        justify-content: center;
+    }
+
+    .hotel__showmore {
+        margin-left: 55px;
+    }
+
+    /* popular */
+
+
+
+    .popular__hotels {
+        flex-direction: row;
+    }
+
+    /* activities */
+
+    .activities__title {
+        margin-left: 50px;
+    }
+
+    .activities__cards {
+        margin: auto;
+        width: 100%;
+    }
+
+    .activities__card {
+        width: 182;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .container {
+        width: 768px;
+    }
+
+    /* header */
+
+
+    .hotel__cards , .popular__hotels , .activities__cards {
+        flex-direction: column;
+    }
 }
