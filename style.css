@@ -189,14 +189,14 @@ nav li a:hover {
     object-fit: cover;
 }
 
-.card__infos {
+.hotel__infos {
     display: flex;
     background-color: white;
     padding: 5px 10px;
     gap: 4px;
 }
 
-.card__infos p {
+.hotel__infos p {
     margin: 0;
 }
 
@@ -214,7 +214,7 @@ nav li a:hover {
     color: #0065FC;
 }
 
-.show__more {
+.hotel__showmore {
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -260,7 +260,7 @@ nav li a:hover {
     object-fit: cover;
 }
 
-.card__infos {
+.hotel__infos {
     flex: 1;
     background-color: white;
     flex-direction: column;
@@ -268,7 +268,7 @@ nav li a:hover {
     padding: 10px;
 }
 
-.card__infos > h3 {
+.hotel__infos > h3 {
     margin: 0;
     font-weight: 700;
     font-size: 1rem;
