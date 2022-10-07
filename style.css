@@ -3,7 +3,7 @@
 /* Font & Global */
 
 * {
-    font-family: raleway;
+    font-family: Raleway;
 }
 
 body {
@@ -172,7 +172,6 @@ nav li a:hover {
 
 .hotel__card {
     display: flex;
-    width: 246px;
     box-sizing: border-box;
     border: 5px solid white;
     border-radius: 15px;
