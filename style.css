@@ -122,6 +122,8 @@ nav li a:hover {
     gap: 10px;
 }
 
+
+
 .filters :hover {
     background-color: #DEEBFF;
 }
@@ -414,12 +416,73 @@ footer li {
 @media only screen and (max-width: 768px){
 
     .container {
-        width: 768px;
-        background-color: purple;
+        width: 100%;
+        margin: 0 17px;
+
     }
 
     /* header */
 
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 21px;
+    }
+
+    nav {
+        justify-content: space-evenly;
+    }
+
+    nav li a {
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 23px;
+    }
+
+    nav li a:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 23px;
+        border-top: none;
+        padding-top: none;
+    }
+
+    /*search */
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search p {
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .filters a {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .filter__title {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 120px;
+    }
+
+    .filter {
+        width: 200px;
+        margin-bottom: 14px;
+    }
+
+    /* housing */
 
     .hotel__cards , .popular__hotels , .activities__cards {
         flex-direction: column;
