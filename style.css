@@ -280,18 +280,17 @@ nav li a:hover {
 
 #activities {
     margin: 0 auto;
+    margin-top: 50px;
 }
 
-.activities__card {
-    flex-wrap: wrap;
-    display: inline-block;
+.activities__cards {
+    justify-content: space-between;
 }
 
 .activity__card {
     width: 302px;
     height: 445px;
     overflow: hidden;
-    margin-right: 40px;
     background-color: white;
     border-radius: 20px;
     border: 1px solid #D9D9D9;
@@ -418,7 +417,6 @@ footer li {
     .container {
         width: 100%;
         margin: 0 17px;
-
     }
 
     /* header */
@@ -482,9 +480,41 @@ footer li {
         margin-bottom: 14px;
     }
 
-    /* housing */
+    .info__box {
+        margin-top: 10px;
+    }
+
+    /* general main */
 
     .hotel__cards , .popular__hotels , .activities__cards {
+        display: flex;
         flex-direction: column;
+    }
+
+    /* popular */
+
+    .popular {
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+
+    }
+
+    .popular__title {
+        justify-content: center;
+    }
+
+    .popular__hotels {
+        
+    }
+
+    /* housing */
+
+    #housing {
+        flex-direction: column-reverse;
+    }
+
+    .hotels {
+        width: 100%;
     }
 }
