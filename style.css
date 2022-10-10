@@ -181,10 +181,11 @@ nav li a:hover {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 0 7px #C1C1C1;
+    width: 246px;
 }
 
 .hotel__img {
-    width: 100%;
+    width: 236px;
     height: 126px;
     object-fit: cover;
 }
@@ -225,7 +226,6 @@ nav li a:hover {
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
-    flex: 1;
     margin-left: 3%;
 }
 
@@ -330,10 +330,9 @@ footer li {
 /* Tablet */
 
 @media only screen and (max-width: 992px){
-    
-
     .container {
         width: 100%;
+        margin: 0 17px;
     }
 
     header {
@@ -352,8 +351,7 @@ footer li {
     /* housing */ 
 
     .hotels {
-        margin: 0 72px;
-        padding: 0;
+        margin-bottom: 53px;
     }
 
     .hotel__title {
@@ -370,10 +368,21 @@ footer li {
 
     /* popular */
 
-
+    .popular {
+        margin: 0;
+        justify-content: space-evenly;
+        width: 880px;
+        margin-bottom: 70px;
+    }
 
     .popular__hotels {
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .popular__article {
+        width: 252px;
+        height: 144px;
     }
 
     /* activities */
@@ -389,6 +398,16 @@ footer li {
 
     .activities__card {
         width: 182;
+    }
+
+    .activity__title {
+        margin: 10px 0 10px 10px;
+    }
+
+    /* footer */
+
+    footer {
+        margin: 70px 70px 0 70px;;
     }
 }
 
