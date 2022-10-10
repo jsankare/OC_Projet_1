@@ -331,8 +331,9 @@ footer li {
 
 @media only screen and (max-width: 992px){
     
+
     .container {
-        width: 992px;
+        width: 100%;
     }
 
     header {
@@ -351,7 +352,8 @@ footer li {
     /* housing */ 
 
     .hotels {
-        margin-left: 15px;
+        margin: 0 72px;
+        padding: 0;
     }
 
     .hotel__title {
@@ -394,6 +396,7 @@ footer li {
 
     .container {
         width: 768px;
+        background-color: purple;
     }
 
     /* header */
