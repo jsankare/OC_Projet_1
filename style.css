@@ -349,6 +349,10 @@ footer li {
         margin-left: 10px;
     }
 
+    .filter__title {
+        margin-right: 20px;
+    }
+
     main {
         flex-direction: column;
         width: 100%;
@@ -358,8 +362,8 @@ footer li {
 
     .hotels {
         margin-bottom: 53px;
-        width: auto;
         height: auto;
+        width: auto;
     }
 
     .hotel__title {
@@ -368,6 +372,14 @@ footer li {
 
     .hotel__cards {
         justify-content: center;
+    }
+
+    .hotel__card {
+        width: 205px;
+    }
+
+    .hotel__infos h3, .hotel__infos p{
+        font-size: smaller;
     }
 
     .hotel__showmore {
