@@ -407,27 +407,34 @@ footer li {
 
     /* activities Tablet*/
 
-    .activities__title {
-        margin-left: 50px;
+    #activities {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .activity__card {
+        height: 267px;
+    }
+
+    .activity__image {
+        height: 200px;
     }
 
     .activities__cards {
         margin: auto;
-        width: 100%;
-    }
-
-    .activities__card {
-        width: 182;
+        gap: 30px;
     }
 
     .activity__title {
-        margin: 10px 0 10px 10px;
+        align-items: center;
+        
     }
 
     /* footer Tablet*/
 
     footer {
-        margin: 70px 80px 0 40px;
+        width: 90%;
+        margin-left: 40px;
     }
 }
 
