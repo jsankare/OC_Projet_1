@@ -565,14 +565,26 @@ footer li {
         padding: 0;
     }
 
+    .popular__title h2 {
+        font-size: 2rem;
+    }
+
+    .popular__card {
+        width: 100%px;
+    }
+
+    .popular__hotels {
+        margin: 0 auto;
+    }
+
     .popular__article {
-        min-height: 150px;
-        min-width: 450px;
         border-radius: 15px;
         margin-bottom: 30px;
         box-shadow: 0 0 7px #C1C1C1;
         box-sizing: border-box;
         overflow: hidden;
+        margin-left: 25px;
+        height: 150px;
     }
 
     .popular__img {
@@ -580,10 +592,15 @@ footer li {
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         min-height: 150px;
+        width: 50%;
+    }
+
+    .hotel__infos {
+        width: 360px;
     }
 
     .title {
-        justify-content: center;
+        margin-left: 25px;
     }
 
     .popular__icon--hiddenMobile , .hotel__showmore--hiddenMobile {
@@ -608,8 +625,8 @@ footer li {
     }
 
     .hotel__title {
-        text-align: center;
-        margin-right: 50px;
+        margin-left: 75px;
+        font-size: 2rem;
     }
 
     .hotel__cards {
@@ -631,12 +648,13 @@ footer li {
 
     .activities__title {
         font-size: 2rem;
+        margin-left: 75px;
     }
 
     .activity__card {
-        width: 90%;
+        width: 80%;
         margin: auto;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         max-height: 250px;
     }
 
@@ -647,9 +665,14 @@ footer li {
     /* footer mobile */ 
 
     footer {
+        font-size: 1.5rem;
         flex-direction: column;
         margin: 0 auto;
         margin-top: 50px;
         min-height: 501px;
+    }
+
+    .help {
+        margin-bottom: 50px;
     }
 }
