@@ -405,6 +405,14 @@ footer li {
         height: 144px;
     }
 
+    .popular__img {
+        width: 42%;
+    }
+
+    .popular p {
+        padding-bottom: 40px;
+    }
+
     /* activities Tablet*/
 
     #activities {
