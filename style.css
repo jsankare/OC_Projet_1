@@ -120,7 +120,7 @@ nav li a:hover {
 .filter {
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    padding: 8px 20px;
+    padding: 12px 20px;
     margin-right: 15px;
     align-items: center;
     gap: 10px;
@@ -353,6 +353,10 @@ footer li {
         margin-right: 20px;
     }
 
+    .filter {
+        padding: 12px 10px;
+    }
+
     main {
         flex-direction: column;
         width: 100%;
@@ -407,6 +411,8 @@ footer li {
 
     .popular__img {
         width: 42%;
+        border-radius: 15px 0px 0px 15px;
+        border: 5px solid white;
     }
 
     .popular p {
@@ -421,11 +427,11 @@ footer li {
     }
 
     .activity__card {
-        height: 267px;
+        height: 230px;
     }
 
     .activity__image {
-        height: 200px;
+        height: 150px;
     }
 
     .activities__cards {
@@ -441,8 +447,12 @@ footer li {
     /* footer Tablet*/
 
     footer {
-        width: 90%;
-        margin-left: 40px;
+        width: 95%;
+        margin-left: 25px;
+    }
+
+    footer h3 {
+        font-size: 1.2rem;
     }
 }
 
@@ -455,6 +465,10 @@ footer li {
         margin: 0;
     }
 
+    h3 {
+        font-size: 1.5rem;
+    }
+
     /* header mobile */
 
     header {
@@ -463,6 +477,10 @@ footer li {
 
     .logo {
         margin-top: 21px;
+    }
+
+    .logo > img {
+        width: 80px;
     }
 
     nav {
@@ -487,13 +505,14 @@ footer li {
 
     nav li a {
         padding-bottom: 23px;
+        font-size: 1.5rem;
     }
 
     nav li a:hover {
         color: #0065FC;
         padding-bottom: 23px;
-        border-top: none;
-        padding-top: none;
+        border-top: 0;
+        padding-top: 0;
     }
 
     /*search mobile */
@@ -532,21 +551,22 @@ footer li {
     }
 
     .filters a {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
     .filter__title {
         width: 100%;
         margin-bottom: 15px;
-        margin-left: 120px;
+        margin-left: 90px;
         margin-right: 50px;
         
     }
 
     .filter {
-        width: 200px;
+        width: 250px;
         margin-bottom: 14px;
+        padding: 15px;
+        justify-content: center;
     }
 
     .info__box {
@@ -585,7 +605,8 @@ footer li {
     }
 
     .popular__card {
-        width: 100%px;
+        width: 100%;
+        
     }
 
     .popular__hotels {
@@ -599,7 +620,7 @@ footer li {
         box-sizing: border-box;
         overflow: hidden;
         margin-left: 25px;
-        height: 150px;
+        height: 160px;
     }
 
     .popular__img {
@@ -650,13 +671,23 @@ footer li {
 
     .hotel__card {
         max-width: 708px;
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
 
     .hotel__img {
         width: 768px;
         min-height: 200px;
+    }
+
+    .hotel__infos > h3 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .hotel__infos > p {
+        font-size: 1.2rem;
     }
 
     /* activities mobile */ 
